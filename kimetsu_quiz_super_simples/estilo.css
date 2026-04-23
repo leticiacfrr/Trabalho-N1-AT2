@@ -1,100 +1,145 @@
-/* Estilo geral da página */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #29297e;
     margin: 0;
     padding: 20px;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 
-/* Caixa principal que segura todo o conteúdo */
 .caixa-principal {
-    max-width: 850px;
-    margin: 0 auto;
-    background-color: white;
-    padding: 20px;
-    border: 1px solid #d0d0d0;
-    border-radius: 8px;
+    max-width: 600px;
+    width: 100%;
+    background-color: rgb(212, 225, 255);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.5);
 }
 
-/* Título principal */
+.oculta {
+    display: none !important;
+}
+
+
 h1 {
     text-align: center;
-    color: #222;
+    color: #16213e;
+    font-size: 1.8rem;
     margin-top: 0;
 }
 
-/* Texto abaixo do título */
 .texto-inicial {
     text-align: center;
     margin-bottom: 25px;
-    color: #444;
+    line-height: 1.6;
+    font-size: 1.1rem;
+    color: #292929;
 }
 
-/* Caixa de cada pergunta */
-.pergunta {
-    background-color: #fafafa;
-    border: 1px solid #cfcfcf;
-    border-radius: 6px;
-    padding: 15px;
-    margin-bottom: 18px;
-}
-
-/* Texto da pergunta */
-.titulo-pergunta {
-    font-weight: bold;
-    margin-bottom: 10px;
-}
-
-/* Espaço entre as opções */
-.opcao {
-    display: block;
-    margin-bottom: 8px;
-}
-
-/* Área dos botões */
-.area-botoes {
-    margin-top: 20px;
+.banner-inicio {
     text-align: center;
 }
 
-/* Estilo dos botões */
+.img-home {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 12px;
+    margin: 20px 0;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.pergunta {
+    background-color:  rgb(212, 225, 255);
+    border: 1px solid #000000;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.titulo-pergunta {
+    font-weight: bold;
+    margin-bottom: 15px;
+    display: block;
+    font-size: 1.2rem;
+    color: #16213e;
+}
+.opcao {
+    display: block;
+    margin-bottom: 12px;
+    cursor: pointer;
+    padding: 10px;
+    background-color:  rgb(212, 225, 255);
+    border: 1px solid #000000;
+    border-radius: 6px;
+    transition: background-color 0.2s;
+}
+
+.opcao:hover {
+    background-color:  rgb(121, 161, 255); /* escurece ligeiramente ao passar o rato */
+}
+
+.progresso-fundo {
+    width: 100%;
+    background-color: #cccccc;
+    height: 15px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    overflow: hidden;
+}
+.progresso-cor {
+    height: 100%;
+    background-color: #ffb728; /* laranja destaque */
+    width: 0%;
+    transition: width 0.4s ease; /* animação suave controlada pelo dom */
+}
+
+.area-botoes {
+    text-align: center;
+    margin-top: 20px;
+}
+
 button {
-    background-color: #3b82f6;
+    background-color: #0f8b8d;
     color: white;
     border: none;
-    padding: 10px 16px;
-    margin: 5px;
-    border-radius: 6px;
-    cursor: pointer;
-    font-size: 15px;
-}
-
-/* Efeito ao passar o mouse */
-button:hover {
-    background-color: #2563eb;
-}
-
-/* Caixa do resultado */
-#resultado {
-    margin-top: 25px;
-    padding: 20px;
-    background-color: #f9f9f9;
-    border: 1px solid #cfcfcf;
-    border-radius: 6px;
-    display: none;
-}
-
-/* Imagem do personagem */
-#resultado img {
-    width: 220px;
-    max-width: 100%;
-    display: block;
-    margin-top: 15px;
+    padding: 12px 25px;
     border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s;
 }
 
-/* Lista das porcentagens */
-.lista-porcentagens {
+button:hover {
+    background-color: #14a3a6;
+    transform: scale(1.05); /* botão cresce ligeiramente ao clicar */
+}
+
+.btn-principal {
+    font-size: 1.2rem;
+    padding: 15px 30px;
+    background-color: #ff002b; /* rosa avermelhado vibrante */
+    box-shadow: 0 4px 10px rgba(6, 0, 61, 0.4);
+}
+
+.btn-principal:hover {
+    background-color: #100349;
+}
+
+#resultado img {
+    max-width: 100%;
+    border-radius: 10px;
     margin-top: 15px;
-    padding-left: 18px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 4px solid #0f8b8d;
+}
+
+#resultado h2 {
+    text-align: center;
+    color: #f70029;
 }

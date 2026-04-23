@@ -1,38 +1,52 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-pt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz Kimetsu no Yaiba</title>
+    <title>Quiz Demon Slayer - Trio Principal</title>
     <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
-    <!-- Caixa principal do projeto -->
     <div class="caixa-principal">
+        
+        <div id="tela-inicial">
+            <h1>Você está pronto para descobrir sua respiração?</h1>
+            <p class="texto-inicial">
+                Entre no universo de kimetsu no yaiba e descubra qual dos caçadores 
+                mais combina com a sua personalidade através deste QUIZ.
+            </p>
+            
+            <div class="banner-inicio">
+                <img src="https://4kwallpapers.com/images/walls/thumbs_3t/23652.jpg" alt="trio principal demon slayer" class="img-home">
+            </div>
 
-        <!-- Título principal -->
-        <h1>Quiz: Qual personagem de Kimetsu no Yaiba você seria?</h1>
-
-        <!-- Texto de apresentação -->
-        <p class="texto-inicial">
-            Responda as 10 perguntas abaixo e descubra se você se parece mais com
-            Tanjiro, Zenitsu ou Inosuke.
-        </p>
-
-        <!-- Área onde as perguntas serão criadas pelo JavaScript -->
-        <div id="perguntas"></div>
-
-        <!-- Área dos botões -->
-        <div class="area-botoes">
-            <button onclick="verResultado()">Ver resultado</button>
-            <button onclick="reiniciarQuiz()">Recomeçar</button>
+            <div class="area-botoes">
+                <button onclick="iniciarQuiz()" class="btn-principal">Iniciar jornada</button>
+            </div>
         </div>
 
-        <!-- Área onde o resultado aparecerá -->
-        <div id="resultado"></div>
+        <div id="tela-quiz" class="oculta">
+            <div class="progresso-fundo">
+                <div id="barra-progresso" class="progresso-cor"></div>
+            </div>
+            
+            <div id="pergunta-atual"></div>
+
+            <div class="area-botoes">
+                <button id="btn-proxima" onclick="proximaPergunta()">Próxima Pergunta</button>
+            </div>
+        </div>
+
+        <div id="tela-resultado" class="oculta">
+            <div id="resultado">
+                </div>
+            <div class="area-botoes">
+                <button onclick="reiniciarQuiz()">Refazer Quiz</button>
+            </div>
+        </div>
+
     </div>
 
-    <!-- Arquivo JavaScript do projeto -->
     <script src="script.js"></script>
 </body>
 </html>
