@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Kimetsu no Yaiba</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- Caixa principal do projeto -->
+    <div class="caixa-principal">
+
+        <!-- Título principal -->
+        <h1>Quiz: Qual personagem de Kimetsu no Yaiba você seria?</h1>
+
+        <!-- Texto de apresentação -->
+        <p class="texto-inicial">
+            Responda as 10 perguntas abaixo e descubra se você se parece mais com
+            Tanjiro, Zenitsu ou Inosuke.
+        </p>
+
+        <!-- Área onde as perguntas serão criadas pelo JavaScript -->
+        <div id="perguntas"></div>
+
+        <!-- Área dos botões -->
+        <div class="area-botoes">
+            <button onclick="verResultado()">Ver resultado</button>
+            <button onclick="reiniciarQuiz()">Recomeçar</button>
+        </div>
+
+        <!-- Área onde o resultado aparecerá -->
+        <div id="resultado"></div>
+    </div>
+
+    <!-- Arquivo JavaScript do projeto -->
+    <script src="script.js"></script>
+</body>
+</html>
