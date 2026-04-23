@@ -48,81 +48,81 @@ let perguntas = [
     {
         texto: "1. Em um problema difícil, o que você faz?",
         opcoes: [
-            { texto: "Tento manter a calma e pensar.", pontos: [3, 2, 1] },
-            { texto: "Fico nervoso, mas continuo.", pontos: [2, 3, 1] },
-            { texto: "Vou para cima sem pensar muito.", pontos: [1, 1, 3] }
+            { texto: "Tento manter a calma e pensar.", pontos: [1, 0, 0] },
+            { texto: "Fico nervoso, mas continuo.", pontos: [0, 1, 0] },
+            { texto: "Vou para cima sem pensar muito.", pontos: [0, 0, 1] }
         ]
     },
     {
         texto: "2. Como seus amigos te descreveriam?",
         opcoes: [
-            { texto: "Gentil e confiável.", pontos: [3, 2, 1] },
-            { texto: "Sensível e emotivo.", pontos: [1, 3, 1] },
-            { texto: "Impulsivo e competitivo.", pontos: [1, 1, 3] }
+            { texto: "Gentil e confiável.", pontos: [1, 0, 0] },
+            { texto: "Sensível e emotivo.", pontos: [0, 1, 0] },
+            { texto: "Impulsivo e competitivo.", pontos: [0, 0, 1] }
         ]
     },
     {
         texto: "3. Quando alguém que você gosta está em perigo, você...",
         opcoes: [
-            { texto: "Protege a pessoa com tudo.", pontos: [3, 2, 1] },
-            { texto: "Entra em pânico, mas ajuda.", pontos: [2, 3, 1] },
-            { texto: "Parte para o confronto.", pontos: [1, 1, 3] }
+            { texto: "Protege a pessoa com tudo.", pontos: [1, 0, 0] },
+            { texto: "Entra em pânico, mas ajuda.", pontos: [0, 1, 0] },
+            { texto: "Parte para o confronto.", pontos: [0, 0, 1] }
         ]
     },
     {
         texto: "4. Em um grupo, você é quem...",
         opcoes: [
-            { texto: "Tenta unir todo mundo.", pontos: [3, 2, 1] },
-            { texto: "Reclama, mas continua junto.", pontos: [1, 3, 1] },
-            { texto: "Quer liderar do seu jeito.", pontos: [1, 1, 3] }
+            { texto: "Tenta unir todo mundo.", pontos: [1, 0, 0] },
+            { texto: "Reclama, mas continua junto.", pontos: [0, 1, 0] },
+            { texto: "Quer liderar do seu jeito.", pontos: [0, 0, 1] }
         ]
     },
     {
         texto: "5. Qual qualidade combina mais com você?",
         opcoes: [
-            { texto: "Empatia.", pontos: [3, 2, 1] },
-            { texto: "Lealdade.", pontos: [2, 3, 1] },
-            { texto: "Coragem.", pontos: [1, 1, 3] }
+            { texto: "Empatia.", pontos: [1, 0, 0] },
+            { texto: "Lealdade.", pontos: [0, 1, 0] },
+            { texto: "Coragem.", pontos: [0, 0, 1] }
         ]
     },
     {
         texto: "6. Quando alguém te irrita, você...",
         opcoes: [
-            { texto: "Tenta conversar.", pontos: [3, 2, 1] },
-            { texto: "Fica muito abalado.", pontos: [1, 3, 1] },
-            { texto: "Responde na hora.", pontos: [1, 1, 3] }
+            { texto: "Tenta conversar.", pontos: [1, 0, 0] },
+            { texto: "Fica muito abalado.", pontos: [0, 1, 0] },
+            { texto: "Responde na hora.", pontos: [0, 0, 1] }
         ]
     },
     {
         texto: "7. Sobre desafios, você prefere...",
         opcoes: [
-            { texto: "Evoluir aos poucos.", pontos: [3, 2, 1] },
-            { texto: "Evitar, mas enfrentar se precisar.", pontos: [2, 3, 1] },
-            { texto: "Procurar os mais difíceis.", pontos: [1, 1, 3] }
+            { texto: "Evoluir aos poucos.", pontos: [1, 0, 0] },
+            { texto: "Evitar, mas enfrentar se precisar.", pontos: [0, 1, 0] },
+            { texto: "Procurar os mais difíceis.", pontos: [0, 0, 1] }
         ]
     },
     {
         texto: "8. Seu jeito de demonstrar carinho é...",
         opcoes: [
-            { texto: "Cuidando das pessoas.", pontos: [3, 2, 1] },
-            { texto: "Falando muito do que sente.", pontos: [1, 3, 1] },
-            { texto: "Implicando, mas protegendo.", pontos: [1, 1, 3] }
+            { texto: "Cuidando das pessoas.", pontos: [1, 0, 0] },
+            { texto: "Falando muito do que sente.", pontos: [0, 1, 0] },
+            { texto: "Implicando, mas protegendo.", pontos: [0, 0, 1] }
         ]
     },
     {
         texto: "9. Qual ambiente combina mais com você?",
         opcoes: [
-            { texto: "Um lugar tranquilo.", pontos: [3, 2, 1] },
-            { texto: "Um lugar seguro e confortável.", pontos: [1, 3, 1] },
-            { texto: "Um lugar agitado.", pontos: [1, 1, 3] }
+            { texto: "Um lugar tranquilo.", pontos: [1, 0, 0] },
+            { texto: "Um lugar seguro e confortável.", pontos: [0, 1, 0] },
+            { texto: "Um lugar agitado.", pontos: [0, 0, 1] }
         ]
     },
     {
         texto: "10. Qual frase combina mais com você?",
         opcoes: [
-            { texto: "Mesmo sendo difícil, eu continuo.", pontos: [3, 2, 1] },
-            { texto: "Estou com medo, mas vou tentar.", pontos: [2, 3, 1] },
-            { texto: "Me coloca no desafio mais insano.", pontos: [1, 1, 3] }
+            { texto: "Mesmo sendo difícil, eu continuo.", pontos: [1, 0, 0] },
+            { texto: "Estou com medo, mas vou tentar.", pontos: [0, 1, 0] },
+            { texto: "Me coloca no desafio mais insano.", pontos: [0, 0, 1] }
         ]
     }
 ];
@@ -186,8 +186,8 @@ function verResultado() {
     // Array para guardar os pontos de cada personagem.
     let pontosTotais = [0, 0, 0];
 
-    // Cada personagem pode fazer no máximo 30 pontos.
-    let maximoPontos = perguntas.length * 3;
+    // Cada personagem pode fazer no máximo 10 pontos.
+    let maximoPontos = perguntas.length;
 
     // Laço para analisar cada pergunta.
     for (let i = 0; i < perguntas.length; i++) {
