@@ -1,6 +1,6 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #29297e;
+    background-color: #141439;
     margin: 0;
     padding: 20px;
     color: #333;
@@ -91,7 +91,7 @@ h1 {
 }
 .progresso-cor {
     height: 100%;
-    background-color: #ffb728; /* laranja destaque */
+    background-color: #ff3628; /* laranja destaque */
     width: 0%;
     transition: width 0.4s ease; /* animação suave controlada pelo dom */
 }
